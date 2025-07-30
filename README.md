@@ -26,3 +26,17 @@ Build an intelligent system that can:
 - **PyTorch** – With CUDA for GPU acceleration
 
 ---
+
+## 📂 Project Structure
+
+rag-scientific-papers/
+├── notebooks/
+│ ├── 01_section_extraction.ipynb # PDF parsing and section segmentation
+│ └── 02_chunking_embedding_index.ipynb # Chunking, embeddings, FAISS indexing
+├── data/
+│ └── Publication
+/ # Your scientific PDFs
+├── vectorstore/
+│ └── index/ # Saved FAISS index
+├── requirements.txt
+└── README.md
